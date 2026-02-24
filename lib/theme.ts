@@ -15,6 +15,18 @@ export type ColorTheme =
   | 'slate-professional'
   | 'warm-terracotta'
   | 'midnight-navy'
+  | 'teal-fresh'
+  | 'sunset-amber'
+  | 'crimson-bold'
+  | 'indigo-modern'
+  | 'emerald-trust'
+  | 'warm-earth'
+  | 'cool-steel'
+  | 'coral-energy'
+  | 'sage-calm'
+  | 'navy-classic'
+  | 'charcoal-minimal'
+  | 'sky-light'
 
 export type HeroStyle = 'split' | 'centered' | 'fullwidth' | 'minimal'
 export type CardStyle = 'elevated' | 'bordered' | 'flat' | 'glass'
@@ -33,7 +45,7 @@ export interface ThemeConfig {
 
 // Load theme from JSON
 export const theme: ThemeConfig = {
-  colors: (themeData.colors as ColorTheme) || 'fresh-teal',
+  colors: (themeData.colors as ColorTheme) || 'teal-fresh',
   heroStyle: (themeData.heroStyle as HeroStyle) || 'split',
   cardStyle: (themeData.cardStyle as CardStyle) || 'elevated',
   radius: (themeData.radius as RadiusStyle) || 'rounded',

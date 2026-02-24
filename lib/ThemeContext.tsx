@@ -13,6 +13,18 @@ export type ColorTheme =
   | 'slate-professional'
   | 'warm-terracotta'
   | 'midnight-navy'
+  | 'teal-fresh'
+  | 'sunset-amber'
+  | 'crimson-bold'
+  | 'indigo-modern'
+  | 'emerald-trust'
+  | 'warm-earth'
+  | 'cool-steel'
+  | 'coral-energy'
+  | 'sage-calm'
+  | 'navy-classic'
+  | 'charcoal-minimal'
+  | 'sky-light'
 
 export type HeroStyle = 'split' | 'centered' | 'fullwidth' | 'minimal'
 export type CardStyle = 'elevated' | 'bordered' | 'flat' | 'glass'
@@ -35,7 +47,7 @@ interface ThemeContextType {
 }
 
 const defaultTheme: ThemeState = {
-  colors: (themeData.colors as ColorTheme) || 'fresh-teal',
+  colors: (themeData.colors as ColorTheme) || 'teal-fresh',
   heroStyle: (themeData.heroStyle as HeroStyle) || 'split',
   cardStyle: (themeData.cardStyle as CardStyle) || 'elevated',
   radius: (themeData.radius as RadiusStyle) || 'rounded',
@@ -78,6 +90,10 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       'theme-fresh-teal', 'theme-ocean-blue', 'theme-forest-green',
       'theme-sunset-orange', 'theme-royal-purple', 'theme-slate-professional',
       'theme-warm-terracotta', 'theme-midnight-navy',
+      'theme-teal-fresh', 'theme-sunset-amber', 'theme-crimson-bold',
+      'theme-indigo-modern', 'theme-emerald-trust', 'theme-warm-earth',
+      'theme-cool-steel', 'theme-coral-energy', 'theme-sage-calm',
+      'theme-navy-classic', 'theme-charcoal-minimal', 'theme-sky-light',
       'radius-sharp', 'radius-subtle', 'radius-rounded', 'radius-pill',
     ]
     themeClasses.forEach(cls => body.classList.remove(cls))
