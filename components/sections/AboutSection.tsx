@@ -18,9 +18,19 @@ const aboutContent = getAboutSectionContent()
 
 export type AboutStyle = 'story' | 'stats' | 'values'
 
+const ABOUT_STYLE_MAP: Record<string, AboutStyle> = {
+  story: 'story', split: 'story',
+  stats: 'stats', timeline: 'stats',
+  values: 'values', cards: 'values', centered: 'values',
+}
+
+function normalizeAboutStyle(raw: string): AboutStyle {
+  return ABOUT_STYLE_MAP[raw] || 'values'
+}
+
 function useAboutStyle(): AboutStyle {
   const [style, setStyle] = useState<AboutStyle>(
-    ((themeData as any).aboutStyle as AboutStyle) || 'story'
+    normalizeAboutStyle((themeData as any).aboutStyle || 'story')
   )
 
   useEffect(() => {
@@ -30,12 +40,12 @@ function useAboutStyle(): AboutStyle {
         if (saved) {
           const parsed = JSON.parse(saved)
           if (parsed.aboutStyle) {
-            setStyle(parsed.aboutStyle)
+            setStyle(normalizeAboutStyle(parsed.aboutStyle))
             return
           }
         }
       } catch {}
-      setStyle(((themeData as any).aboutStyle as AboutStyle) || 'story')
+      setStyle(normalizeAboutStyle((themeData as any).aboutStyle || 'story'))
     }
     update()
     window.addEventListener('foundlio-theme-change', update)

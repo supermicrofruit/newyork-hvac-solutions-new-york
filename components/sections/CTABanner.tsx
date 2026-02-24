@@ -16,11 +16,22 @@ import { useContentSwap, useVerticalContentJson } from '@/lib/useVerticalContent
 
 export type CTAStyle = 'standard' | 'centered' | 'card' | 'minimal'
 
+const CTA_STYLE_MAP: Record<string, CTAStyle> = {
+  standard: 'standard', banner: 'standard',
+  centered: 'centered', inline: 'centered',
+  card: 'card', floating: 'card',
+  minimal: 'minimal',
+}
+
+function normalizeCtaStyle(raw: string): CTAStyle {
+  return CTA_STYLE_MAP[raw] || 'standard'
+}
+
 const ctaContent = getCtaBannerContent()
 
 function useCtaStyle(): CTAStyle {
   const [style, setStyle] = useState<CTAStyle>(
-    ((themeData as any).ctaStyle as CTAStyle) || 'standard'
+    normalizeCtaStyle((themeData as any).ctaStyle || 'standard')
   )
 
   useEffect(() => {
@@ -30,12 +41,12 @@ function useCtaStyle(): CTAStyle {
         if (saved) {
           const parsed = JSON.parse(saved)
           if (parsed.ctaStyle) {
-            setStyle(parsed.ctaStyle)
+            setStyle(normalizeCtaStyle(parsed.ctaStyle))
             return
           }
         }
       } catch {}
-      setStyle(((themeData as any).ctaStyle as CTAStyle) || 'standard')
+      setStyle(normalizeCtaStyle((themeData as any).ctaStyle || 'standard'))
     }
     update()
     window.addEventListener('foundlio-theme-change', update)

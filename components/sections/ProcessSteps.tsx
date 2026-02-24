@@ -42,8 +42,9 @@ type StepItem = { icon: LucideIcon; title: string; description: string }
 
 // Variant 1: Cards (default) - Icon boxes in a grid
 function ProcessCards({ steps, hasGradient = false }: { steps: StepItem[]; hasGradient?: boolean }) {
+  const cols = steps.length <= 3 ? 'md:grid-cols-3 max-w-4xl mx-auto' : 'md:grid-cols-4'
   return (
-    <div className="grid md:grid-cols-4 gap-8">
+    <div className={`grid ${cols} gap-8`}>
       {steps.map((step, index) => (
         <motion.div
           key={step.title}
@@ -220,6 +221,7 @@ export default function ProcessSteps() {
         return <ProcessTimeline steps={steps} />
       case 'numbered':
         return <ProcessNumbered steps={steps} />
+      case 'steps':
       case 'cards':
       default:
         return <ProcessCards steps={steps} hasGradient={hasGradient} />

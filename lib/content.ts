@@ -78,32 +78,44 @@ interface ContentData {
   }
   processSection?: {
     title?: string
+    headline?: string
     subtitle?: string
+    description?: string
     steps?: ProcessStep[]
   }
   worksSection?: Record<string, string>
   testimonialsSection?: {
     title?: string
+    headline?: string
     subtitle?: string
+    description?: string
   }
   faqSection?: {
     title?: string
+    headline?: string
     subtitle?: string
+    description?: string
   }
   aboutSection?: {
     title?: string
+    headline?: string
     subtitle?: string
     description?: string
     mission?: string
-    values?: { title: string; description: string }[]
+    values?: { title: string; description: string; icon?: string }[]
   }
   blogSection?: {
     title?: string
+    headline?: string
     subtitle?: string
+    description?: string
   }
   ctaBanner?: {
     title?: string
+    headline?: string
     description?: string
+    buttonText?: string
+    buttonHref?: string
   }
   pages?: Record<string, PageContent>
 }
@@ -141,8 +153,8 @@ export function getMediaBarContent() {
 export function getServicesSectionContent() {
   const services = data.servicesSection
   return {
-    title: services?.title || 'Our Services',
-    subtitle: services?.subtitle || 'Comprehensive solutions for your home and business',
+    title: services?.title || (services as any)?.headline || 'Our Services',
+    subtitle: services?.subtitle || (services as any)?.description || 'Comprehensive solutions for your home and business',
     ...services,
   }
 }
@@ -150,8 +162,8 @@ export function getServicesSectionContent() {
 export function getProcessSectionContent(): ProcessSectionContent {
   const process = data.processSection
   return {
-    title: process?.title || 'How It Works',
-    subtitle: process?.subtitle || 'Simple, transparent process from start to finish',
+    title: process?.title || process?.headline || 'How It Works',
+    subtitle: process?.subtitle || process?.description || 'Simple, transparent process from start to finish',
     steps: process?.steps || [
       { title: 'Contact Us', description: 'Call or fill out our form for a free estimate.' },
       { title: 'Get a Quote', description: 'We assess the job and provide transparent pricing.' },
@@ -168,8 +180,8 @@ export function getWorksSectionContent() {
 export function getTestimonialsSectionContent() {
   const testimonials = data.testimonialsSection
   return {
-    title: testimonials?.title || 'What Our Customers Say',
-    subtitle: testimonials?.subtitle || 'Real reviews from real customers',
+    title: testimonials?.title || testimonials?.headline || 'What Our Customers Say',
+    subtitle: testimonials?.subtitle || testimonials?.description || 'Real reviews from real customers',
     ...testimonials,
   }
 }
@@ -177,15 +189,15 @@ export function getTestimonialsSectionContent() {
 export function getFaqSectionContent() {
   const faq = data.faqSection
   return {
-    title: faq?.title || 'Common Questions',
-    subtitle: faq?.subtitle || 'Find answers to frequently asked questions about our services',
+    title: faq?.title || faq?.headline || 'Common Questions',
+    subtitle: faq?.subtitle || faq?.description || 'Find answers to frequently asked questions about our services',
   }
 }
 
 export function getAboutSectionContent(): AboutSectionContent {
   const about = data.aboutSection
   return {
-    title: about?.title || 'About Us',
+    title: about?.title || about?.headline || 'About Us',
     subtitle: about?.subtitle || 'Learn more about our story and values',
     description: about?.description || 'We are a dedicated team of professionals committed to delivering exceptional service to our community.',
     mission: about?.mission || '',
@@ -196,15 +208,15 @@ export function getAboutSectionContent(): AboutSectionContent {
 export function getBlogSectionContent(): BlogSectionContent {
   const blog = data.blogSection
   return {
-    title: blog?.title || 'Latest Articles',
-    subtitle: blog?.subtitle || 'Tips and insights from our team',
+    title: blog?.title || blog?.headline || 'Latest Articles',
+    subtitle: blog?.subtitle || blog?.description || 'Tips and insights from our team',
   }
 }
 
 export function getCtaBannerContent() {
   const cta = data.ctaBanner
   return {
-    title: cta?.title || 'Ready to Get Started?',
+    title: cta?.title || cta?.headline || 'Ready to Get Started?',
     description: cta?.description || 'Contact us today for a free estimate. Our team is ready to help.',
     ...cta,
   }
