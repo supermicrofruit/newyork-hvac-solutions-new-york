@@ -1,57 +1,74 @@
 {
   "summary": {
-    "averageRating": 4.7,
-    "totalReviews": 312
+    "averageRating": 4.6,
+    "totalReviews": 13,
+    "fiveStarPercentage": 85,
+    "platforms": [
+      { "name": "Google", "rating": 4.6, "reviews": 13 }
+    ]
   },
   "testimonials": [
     {
       "id": 1,
-      "name": "Angela R.",
+      "name": "Nrn K.",
       "rating": 5,
-      "text": "Bright Spark Electric rewired our entire 1960s home. They were meticulous about everything — clean work, labeled breakers, and passed inspection first try.",
-      "service": "Whole Home Rewiring",
-      "location": "Denver, CO",
-      "date": "2024-11-18",
+      "text": "Great, reliable company to deal with. Everything went very smoothly. They had the best price for the PTAC unit I was looking for. Professional service, helpful staff, and timely delivery. They provided detailed explanations to all my concerns and questions.",
+      "date": "2025-08-28",
+      "service": "PTAC Installation",
       "verified": true
     },
     {
       "id": 2,
-      "name": "Steven C.",
+      "name": "Mike H.",
       "rating": 5,
-      "text": "Had a circuit breaker that kept tripping. Bright Spark Electric found the root cause — an overloaded circuit from a bad renovation. Fixed it properly and explained everything.",
-      "service": "Panel Upgrade",
-      "location": "Denver, CO",
-      "date": "2024-10-22",
+      "text": "Good service and fast shipping. They also helped me find a solution to a difficult situation I was having with a part. Went above and beyond to get it sorted out.",
+      "date": "2025-12-26",
+      "service": "HVAC Parts & Supply",
       "verified": true
     },
     {
       "id": 3,
-      "name": "Diana F.",
+      "name": "Mark E.",
       "rating": 5,
-      "text": "Installed landscape lighting and outdoor outlets for our patio remodel. The design was beautiful and everything works perfectly. Very detail-oriented team.",
-      "service": "Outdoor Lighting",
-      "location": "Denver, CO",
-      "date": "2024-09-15",
+      "text": "This company is awesome. The staff is very helpful and friendly. I had a lot of questions and they patiently worked with me through the entire process. Even when I needed to make changes to my order, they handled everything smoothly. The unit arrived on a pallet in perfect condition.",
+      "date": "2025-02-24",
+      "service": "PTAC Installation",
       "verified": true
     },
     {
       "id": 4,
-      "name": "Ray T.",
+      "name": "Tracey A.",
       "rating": 5,
-      "text": "Power went out in half the house during a monsoon. Bright Spark Electric came out same day, found a damaged breaker, and had us back up in no time.",
-      "service": "Emergency Service",
-      "location": "Denver, CO",
-      "date": "2024-08-20",
+      "text": "They were a great help. My replacement PTAC was an exact fit for my old unit and easy to install. Super fast delivery — I had it up and running in no time.",
+      "date": "2025-07-29",
+      "service": "PTAC Installation",
       "verified": true
     },
     {
       "id": 5,
-      "name": "Linda S.",
+      "name": "Michael P.",
       "rating": 5,
-      "text": "Installed a Tesla Wall Connector and upgraded our panel to handle it. Bright Spark Electric handled the permit, install, and inspection. Seamless experience.",
-      "service": "EV Charger Install",
-      "location": "Denver, CO",
-      "date": "2024-07-10",
+      "text": "Easy website navigation, great price, and fast shipping. The filters I ordered were exactly as described and an exact fit. I will definitely buy again.",
+      "date": "2025-08-28",
+      "service": "HVAC Parts & Supply",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "Clint N.",
+      "rating": 5,
+      "text": "The website had information that made choosing the right part easy. The part arrived a couple of days sooner than expected. The soft start installed quickly and dropped my inrush amps to about one-third of what they were before. Great product and great service.",
+      "date": "2025-02-24",
+      "service": "HVAC Parts & Supply",
+      "verified": true
+    },
+    {
+      "id": 7,
+      "name": "WJ C.",
+      "rating": 5,
+      "text": "After reading reviews of various online suppliers, we decided to go with this highly trusted company. We ordered an Amana PTAC unit and the entire process went smoothly from start to finish. Absolutely fantastic experience.",
+      "date": "2025-02-24",
+      "service": "PTAC Installation",
       "verified": true
     }
   ]

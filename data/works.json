@@ -2,112 +2,107 @@
   "projects": [
     {
       "id": 1,
-      "slug": "scottsdale-estate-deep-clean",
-      "title": "Luxury Estate Deep Clean",
-      "location": "Scottsdale, AZ",
-      "category": "Deep Cleaning",
-      "description": "Complete deep cleaning of a 6,500 sq ft luxury estate in North Scottsdale. Tackled years of buildup in a recently purchased home, transforming every room from dusty to dazzling.",
-      "beforeImage": "https://images.pexels.com/photos/4570110/pexels-photo-4570110.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/19689230/pexels-photo-19689230.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "whole-home-ac-replacement",
+      "featuredImage": "https://images.pexels.com/photos/16848596/pexels-photo-16848596.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Whole Home AC Replacement",
+      "location": "New York, NY",
+      "category": "AC Installation",
+      "description": "Complete replacement of a 20-year-old system with a high-efficiency Trane unit. Homeowner saw 35% energy savings in the first month.",
       "stats": {
-        "sqFt": "6,500",
-        "duration": "2 Days",
-        "team": "4 cleaners"
+        "tonnage": "5 Ton",
+        "seer": "20 SEER",
+        "savings": "35% energy"
       },
-      "services": ["Deep Cleaning"],
+      "services": [
+        "AC Installation"
+      ],
       "featured": true
     },
     {
       "id": 2,
-      "slug": "paradise-valley-move-out",
-      "title": "Move-Out Transformation",
-      "location": "Paradise Valley, AZ",
-      "category": "Move-In/Move-Out",
-      "description": "Complete move-out cleaning for a luxury rental property. The tenants left significant mess, but we restored it to better-than-new condition for the homeowner.",
-      "beforeImage": "https://images.pexels.com/photos/938045/pexels-photo-938045.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/7865621/pexels-photo-7865621.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/7031603/pexels-photo-7031603.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "emergency-ac-repair",
+      "featuredImage": "https://images.pexels.com/photos/5539540/pexels-photo-5539540.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Emergency AC Repair",
+      "location": "New York, NY",
+      "category": "AC Repair",
+      "description": "Compressor failure during peak summer heat. Diagnosed and repaired same day, restoring cooling to a family of five.",
       "stats": {
-        "sqFt": "3,200",
-        "duration": "1 Day",
-        "result": "Full deposit"
+        "responseTime": "2 Hours",
+        "duration": "Same Day",
+        "result": "Full cooling"
       },
-      "services": ["Move-In/Move-Out Cleaning"],
+      "services": [
+        "AC Repair"
+      ],
       "featured": true
     },
     {
       "id": 3,
-      "slug": "tempe-airbnb-turnover",
-      "title": "Airbnb Quick Turnover",
-      "location": "Tempe, AZ",
-      "category": "Vacation Rental",
-      "description": "Same-day turnover for a busy Airbnb property near ASU. Guest checkout at 11am, new guests arriving at 3pm. Complete clean, fresh linens, and restocking done with time to spare.",
-      "beforeImage": "https://images.pexels.com/photos/7507776/pexels-photo-7507776.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/14580368/pexels-photo-14580368.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/5461582/pexels-photo-5461582.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "commercial-hvac-install",
+      "featuredImage": "https://images.pexels.com/photos/8293680/pexels-photo-8293680.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Commercial HVAC Install",
+      "location": "New York, NY",
+      "category": "Commercial",
+      "description": "Multi-zone commercial HVAC installation for a 4,000 sq ft office space. Custom ductwork design for optimal airflow.",
       "stats": {
-        "turnoverTime": "3 hours",
-        "bedrooms": "3",
-        "guestRating": "5 stars"
+        "sqFt": "4,000",
+        "zones": "6 Zones",
+        "duration": "3 Days"
       },
-      "services": ["Airbnb & Vacation Rental"],
-      "featured": true
+      "services": [
+        "Commercial HVAC"
+      ]
     },
     {
       "id": 4,
-      "slug": "phoenix-post-renovation",
-      "title": "Post-Renovation Cleanup",
-      "location": "Phoenix, AZ",
-      "category": "Post-Construction",
-      "description": "Kitchen and bathroom renovation left construction dust everywhere. Our team removed drywall dust from every surface, cleaned all new fixtures, and made the space move-in ready.",
-      "beforeImage": "https://images.pexels.com/photos/3990359/pexels-photo-3990359.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/6301183/pexels-photo-6301183.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/6301168/pexels-photo-6301168.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "ductwork-renovation",
+      "featuredImage": "https://images.pexels.com/photos/15791508/pexels-photo-15791508.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Ductwork Renovation",
+      "location": "New York, NY",
+      "category": "Duct Service",
+      "description": "Complete duct sealing and insulation upgrade in a 1990s home. Eliminated hot spots and improved airflow throughout.",
       "stats": {
-        "area": "Kitchen + 2 baths",
-        "duration": "6 hours",
-        "dustRemoved": "Complete"
+        "sqFt": "2,800",
+        "leakReduction": "90%",
+        "duration": "2 Days"
       },
-      "services": ["Post-Construction Cleaning"],
-      "featured": true
+      "services": [
+        "Duct Service"
+      ]
     },
     {
       "id": 5,
-      "slug": "fountain-hills-weekly-client",
-      "title": "Weekly Home Maintenance",
-      "location": "Fountain Hills, AZ",
-      "category": "Regular Cleaning",
-      "description": "One year of weekly cleaning for a busy family of five. The same cleaner visits every Thursday, keeping their 4-bedroom home consistently spotless despite active kids and pets.",
-      "beforeImage": "https://images.pexels.com/photos/20374786/pexels-photo-20374786.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/5570222/pexels-photo-5570222.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/7018389/pexels-photo-7018389.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "smart-thermostat-upgrade",
+      "featuredImage": "https://images.pexels.com/photos/4468806/pexels-photo-4468806.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Smart Thermostat Upgrade",
+      "location": "New York, NY",
+      "category": "AC Maintenance",
+      "description": "Ecobee smart thermostat installation with whole-home sensor setup. Integrated with existing HVAC for optimal scheduling.",
       "stats": {
-        "frequency": "Weekly",
-        "clientSince": "2023",
-        "bedrooms": "4"
+        "sensors": "6 Rooms",
+        "savings": "20% energy",
+        "duration": "2 Hours"
       },
-      "services": ["Regular House Cleaning"],
-      "featured": true
+      "services": [
+        "AC Maintenance"
+      ]
     },
     {
       "id": 6,
-      "slug": "cave-creek-office-clean",
-      "title": "Medical Office Deep Clean",
-      "location": "Cave Creek, AZ",
-      "category": "Commercial",
-      "description": "After-hours deep cleaning for a dental office. Sanitized all patient areas, waiting room, and break room. Special attention to high-touch surfaces and medical-grade cleanliness standards.",
-      "beforeImage": "https://images.pexels.com/photos/4756489/pexels-photo-4756489.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "afterImage": "https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "featuredImage": "https://images.pexels.com/photos/35438269/pexels-photo-35438269.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "slug": "heat-pump-conversion",
+      "featuredImage": "https://images.pexels.com/photos/12644994/pexels-photo-12644994.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "Heat Pump Conversion",
+      "location": "New York, NY",
+      "category": "Heating",
+      "description": "Converted traditional gas furnace to high-efficiency heat pump system. Better for the environment and lower operating costs.",
       "stats": {
-        "sqFt": "2,400",
-        "duration": "4 hours",
-        "standard": "Medical grade"
+        "efficiency": "300% COP",
+        "savings": "40% heating",
+        "duration": "2 Days"
       },
-      "services": ["Office Cleaning"],
-      "featured": false
+      "services": [
+        "Heating Repair"
+      ]
     }
-  ],
-  "categories": ["All", "Deep Cleaning", "Move-In/Move-Out", "Vacation Rental", "Post-Construction", "Regular Cleaning", "Commercial"]
+  ]
 }

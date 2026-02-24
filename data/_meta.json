@@ -1,20 +1,12 @@
 {
-  "businessName": "Bright Spark Electric",
-  "slug": "bright-spark-electric-denver",
-  "vertical": "electrical",
-  "generatedAt": "2026-02-20T13:34:44.186Z",
+  "businessName": "NewYork Hvac Solutions",
+  "slug": "newyork-hvac-solutions-new-york",
+  "vertical": "generic",
+  "generatedAt": "2026-02-24T14:42:16.059Z",
   "generatedBy": "clonerator",
   "version": "1.0.0",
-  "status": "generating",
-  "files": [
-    "business.json",
-    "content.json",
-    "theme.json",
-    "services.json",
-    "areas.json",
-    "testimonials.json",
-    "faqs.json",
-    "posts.json"
-  ],
-  "errors": []
+  "status": "ready",
+  "claudeStartedAt": "2026-02-24T14:42:16.075Z",
+  "validatedAt": "2026-02-24T14:44:44.778Z",
+  "nocodbId": 783
 }

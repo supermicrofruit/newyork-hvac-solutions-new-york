@@ -1,180 +1,61 @@
 {
-  "primaryServiceArea": "Denver",
-  "serviceRadius": "We serve Denver and surrounding Front Range communities within 25 miles",
+  "primaryServiceArea": "New York",
+  "serviceRadius": "25 miles",
   "areas": [
     {
-      "slug": "denver",
-      "name": "Denver",
-      "state": "CO",
-      "description": "Bright Spark Electric serves homeowners and businesses across Denver, from Capitol Hill Victorian renovations to new construction in RiNo. Our licensed electricians know Denver's diverse housing stock and the electrical challenges that come with it.",
-      "neighborhoods": [
-        "Capitol Hill",
-        "Washington Park",
-        "Highland",
-        "RiNo",
-        "Baker",
-        "Stapleton"
-      ],
-      "landmarks": [
-        "Red Rocks Amphitheatre",
-        "Denver Union Station",
-        "Coors Field",
-        "Denver Art Museum"
-      ],
-      "serviceHighlights": [
-        "Knob-and-tube and aluminum wiring replacement",
-        "EV charger installation — Level 2 home charging stations",
-        "Panel upgrades to 200A for older Denver homes"
-      ],
-      "coordinates": {
-        "lat": 39.7392,
-        "lng": -104.9903
-      }
+      "slug": "manhattan",
+      "name": "Manhattan",
+      "state": "NY",
+      "description": "Manhattan's dense mix of pre-war apartments, high-rise condos, and commercial buildings creates unique HVAC challenges. PTAC units are the standard for thousands of residential and hotel properties across the island. NewYork HVAC Solutions provides PTAC supply, installation, and repair throughout Manhattan, from the Financial District to Washington Heights. Our team understands the logistics of working in tight spaces with strict building management requirements.",
+      "neighborhoods": ["Lower East Side", "Midtown", "Upper West Side", "Harlem", "Chelsea"],
+      "landmarks": ["Central Park", "Empire State Building"],
+      "serviceHighlights": ["PTAC installation and replacement", "Same-day parts delivery", "Building management coordination"],
+      "population": 1630000,
+      "coordinates": { "lat": 40.7831, "lng": -73.9712 }
     },
     {
-      "slug": "aurora",
-      "name": "Aurora",
-      "state": "CO",
-      "description": "Aurora is one of Colorado's largest cities and home to a diverse mix of older bungalows, mid-century ranch homes, and newer developments. Bright Spark Electric provides dependable electrical service across all of Aurora.",
-      "neighborhoods": [
-        "Stapleton",
-        "Centretech",
-        "Saddle Rock",
-        "Heather Ridge",
-        "Murphy Creek",
-        "Tallyn's Reach"
-      ],
-      "landmarks": [
-        "Aurora Reservoir",
-        "Denver International Airport",
-        "Buckley Space Force Base",
-        "Stanley Marketplace"
-      ],
-      "serviceHighlights": [
-        "Federal Pacific and Zinsco panel replacement",
-        "Storm damage repair and outdoor service entrance restoration",
-        "Whole-home rewire for mid-century ranch homes"
-      ],
-      "coordinates": {
-        "lat": 39.7294,
-        "lng": -104.8319
-      }
+      "slug": "brooklyn",
+      "name": "Brooklyn",
+      "state": "NY",
+      "description": "Brooklyn's evolving landscape of brownstones, new developments, and commercial spaces means a wide range of HVAC needs. From installing ductless mini-splits in Williamsburg lofts to replacing PTAC units in Flatbush apartment buildings, NewYork HVAC Solutions serves all of Brooklyn with reliable equipment and professional installation. We stock parts for quick turnaround so Brooklyn property owners aren't left waiting.",
+      "neighborhoods": ["Williamsburg", "Park Slope", "Flatbush", "DUMBO", "Bay Ridge"],
+      "landmarks": ["Brooklyn Bridge", "Prospect Park"],
+      "serviceHighlights": ["Ductless mini-split installation", "Brownstone HVAC upgrades"],
+      "population": 2560000,
+      "coordinates": { "lat": 40.6782, "lng": -73.9442 }
     },
     {
-      "slug": "lakewood",
-      "name": "Lakewood",
-      "state": "CO",
-      "description": "Lakewood's mix of 1960s ranch homes, newer townhomes, and Belmar-area condos keeps Bright Spark Electric busy year-round. We understand the electrical systems common to Jefferson County and bring honest, licensed work to every job.",
-      "neighborhoods": [
-        "Belmar",
-        "Morse Park",
-        "Green Mountain",
-        "Applewood",
-        "Estes",
-        "Westland"
-      ],
-      "landmarks": [
-        "Red Rocks Park",
-        "Belmar Shopping District",
-        "Bear Creek Lake Park",
-        "Colorado Mills Mall"
-      ],
-      "serviceHighlights": [
-        "Panel upgrades from 100A to 200A or 400A service",
-        "Grounding and GFCI/AFCI outlet upgrades throughout the home",
-        "Outdoor lighting and weatherproof outlet installation"
-      ],
-      "coordinates": {
-        "lat": 39.7047,
-        "lng": -105.0814
-      }
+      "slug": "queens",
+      "name": "Queens",
+      "state": "NY",
+      "description": "Queens is the most diverse borough in New York City, with a housing stock that ranges from single-family homes in Bayside to large apartment complexes in Long Island City. This variety demands HVAC expertise across multiple system types. NewYork HVAC Solutions provides heating and cooling solutions throughout Queens, including PTAC replacement for multi-family buildings and central air service for private homes.",
+      "neighborhoods": ["Astoria", "Long Island City", "Flushing", "Bayside", "Jamaica"],
+      "landmarks": ["Flushing Meadows-Corona Park", "Citi Field"],
+      "serviceHighlights": ["Central air and PTAC service", "Multi-family building specialists"],
+      "population": 2270000,
+      "coordinates": { "lat": 40.7282, "lng": -73.7949 }
     },
     {
-      "slug": "arvada",
-      "name": "Arvada",
-      "state": "CO",
-      "description": "From Olde Town Arvada's historic homes to newer subdivisions near Candelas, Bright Spark Electric brings licensed electrical expertise to every corner of the city. Arvada homeowners trust us for straightforward pricing and work done right the first time.",
-      "neighborhoods": [
-        "Olde Town Arvada",
-        "Candelas",
-        "Ralston Valley",
-        "West Woods",
-        "Pomona",
-        "Oberon"
-      ],
-      "landmarks": [
-        "Olde Town Arvada",
-        "Majestic View Nature Center",
-        "Arvada Center for the Arts",
-        "Stenger Soccer Complex"
-      ],
-      "serviceHighlights": [
-        "Historic home rewire with minimal drywall disruption",
-        "Solar-ready panel upgrades and battery backup installation",
-        "Service entrance and weatherhead replacement after storm damage"
-      ],
-      "coordinates": {
-        "lat": 39.8028,
-        "lng": -105.0875
-      }
+      "slug": "bronx",
+      "name": "The Bronx",
+      "state": "NY",
+      "description": "The Bronx's large stock of apartment buildings and growing residential development keeps HVAC demand high year-round. Harsh winters and humid summers make reliable heating and cooling essential for tenants and property managers. NewYork HVAC Solutions works with building owners and supers throughout the Bronx to keep PTAC units running, replace aging systems, and deliver parts fast when equipment breaks down.",
+      "neighborhoods": ["Riverdale", "Fordham", "Pelham Bay", "Mott Haven", "Kingsbridge"],
+      "landmarks": ["Yankee Stadium", "Bronx Zoo"],
+      "serviceHighlights": ["Property management HVAC service", "Emergency heating repair"],
+      "population": 1470000,
+      "coordinates": { "lat": 40.8448, "lng": -73.8648 }
     },
     {
-      "slug": "centennial",
-      "name": "Centennial",
-      "state": "CO",
-      "description": "Centennial is one of Colorado's newest cities, but its housing stock spans several decades. Bright Spark Electric serves Centennial homeowners with the electrical expertise their homes deserve — from 1980s subdivisions to custom builds near Cherry Creek State Park.",
-      "neighborhoods": [
-        "Willow Creek",
-        "Foxridge",
-        "Piney Creek",
-        "Smoky Hill",
-        "Homestead Farm",
-        "Cherry Knolls"
-      ],
-      "landmarks": [
-        "Cherry Creek State Park",
-        "Arapahoe County Fairgrounds",
-        "Streets at SouthGlenn",
-        "Centennial Airport"
-      ],
-      "serviceHighlights": [
-        "Aluminum wiring remediation and CO/ALR outlet upgrades",
-        "EV charger installation in attached and detached garages",
-        "Basement finishing electrical — circuits, recessed lighting, home theater"
-      ],
-      "coordinates": {
-        "lat": 39.5807,
-        "lng": -104.8769
-      }
-    },
-    {
-      "slug": "boulder",
-      "name": "Boulder",
-      "state": "CO",
-      "description": "Boulder's progressive community leads the state in solar adoption, EV ownership, and energy-efficient home upgrades. Bright Spark Electric brings the licensed electrical expertise to match Boulder's forward-thinking approach to energy.",
-      "neighborhoods": [
-        "University Hill",
-        "Mapleton Hill",
-        "Whittier",
-        "Newlands",
-        "Martin Acres",
-        "Table Mesa"
-      ],
-      "landmarks": [
-        "Flatirons",
-        "Pearl Street Mall",
-        "University of Colorado Boulder",
-        "Chautauqua Park"
-      ],
-      "serviceHighlights": [
-        "Solar-ready panel upgrades and Xcel interconnect compliance",
-        "Whole-home rewire for historic Boulder bungalows",
-        "EV charger installation — Tesla, ChargePoint, and universal J1772"
-      ],
-      "coordinates": {
-        "lat": 40.015,
-        "lng": -105.2705
-      }
+      "slug": "jersey-city",
+      "name": "Jersey City",
+      "state": "NJ",
+      "description": "Just across the Hudson River, Jersey City has become one of the fastest-growing cities in the Tri-State area. The waterfront high-rises and historic downtown neighborhoods create steady demand for HVAC installation and service. NewYork HVAC Solutions extends our supply and installation services to Jersey City, providing the same fast delivery and professional workmanship that New York City property owners rely on.",
+      "neighborhoods": ["Downtown", "The Heights", "Journal Square", "Newport", "Bergen-Lafayette"],
+      "landmarks": ["Liberty State Park", "Liberty Science Center"],
+      "serviceHighlights": ["High-rise HVAC service", "Fast delivery from NYC"],
+      "population": 292000,
+      "coordinates": { "lat": 40.7178, "lng": -74.0431 }
     }
   ]
 }

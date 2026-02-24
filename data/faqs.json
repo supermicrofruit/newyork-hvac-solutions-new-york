@@ -1,86 +1,74 @@
 {
   "categories": [
     {
-      "name": "General",
-      "slug": "general",
+      "name": "Services",
+      "slug": "services",
       "faqs": [
         {
-          "question": "How fast can you get here?",
-          "answer": "For Denver and surrounding areas, we typically arrive within 2-4 hours. Electrical emergencies like sparking, burning smells, or complete power loss are prioritized for immediate response."
+          "question": "What services does your company offer?",
+          "answer": "NewYork Hvac Solutions provides professional generic services to residential and commercial clients in New York and the surrounding NY area. Contact us to learn about the full range of solutions we offer."
         },
         {
-          "question": "Are your electricians licensed?",
-          "answer": "Yes, Bright Spark Electric is fully licensed (LIC-ELECTRICAL-27017) and insured. Every electrician on our team is licensed, background-checked, and continuously trained on current codes."
+          "question": "Do you serve both homes and businesses?",
+          "answer": "Yes, we work with homeowners, property managers, and business owners throughout the region. Whether your project is large or small, our experienced team has the skills and equipment to deliver outstanding results."
         },
         {
-          "question": "Do you pull permits?",
-          "answer": "Yes, we pull all necessary permits and schedule inspections for work that requires them. This ensures your work is code-compliant and won't cause issues when selling your home."
+          "question": "What areas do you serve?",
+          "answer": "NewYork Hvac Solutions proudly serves New York and surrounding communities across NY. If you're unsure whether we cover your location, give us a call at (888) 311-8609 and we'll be happy to confirm."
+        }
+      ]
+    },
+    {
+      "name": "Pricing & Estimates",
+      "slug": "pricing-estimates",
+      "faqs": [
+        {
+          "question": "How do I get a quote for your services?",
+          "answer": "Getting a quote is simple. Call us at (888) 311-8609 or fill out the contact form on our website with details about your project. We'll review your request and provide a clear, detailed estimate — typically within one business day."
         },
         {
           "question": "Do you offer free estimates?",
-          "answer": "Yes, estimates for larger projects like panel upgrades, rewiring, and EV charger installation are free. For service calls, we charge a diagnostic fee that's applied to the repair if you proceed."
+          "answer": "Yes, NewYork Hvac Solutions offers free, no-obligation estimates for most projects. We believe in transparent pricing, and you'll always know the full cost before any work begins."
         },
         {
-          "question": "Do you guarantee your work?",
-          "answer": "Absolutely. All electrical work comes with a 2-year warranty. If anything we installed or repaired fails, we'll fix it at no charge."
-        },
-        {
-          "question": "Do you work on commercial properties?",
-          "answer": "We primarily serve residential customers, but we can handle light commercial work. Contact us to discuss your project."
+          "question": "What payment methods do you accept?",
+          "answer": "We accept cash, checks, and all major credit cards. For larger projects, financing options may be available. Our team will discuss payment details with you at the time of your estimate."
         }
       ]
     },
     {
-      "name": "Repairs",
-      "slug": "repairs",
+      "name": "Scheduling & Availability",
+      "slug": "scheduling-availability",
       "faqs": [
         {
-          "question": "Why do my lights flicker?",
-          "answer": "Flickering lights can indicate loose connections, overloaded circuits, or problems at the panel. While sometimes minor, persistent flickering should be checked—it can indicate fire hazards."
+          "question": "How do I schedule an appointment?",
+          "answer": "You can schedule an appointment by calling (888) 311-8609, using our online booking form, or sending us an email. We offer flexible scheduling to accommodate your availability and will confirm your appointment promptly."
         },
         {
-          "question": "Why does my breaker keep tripping?",
-          "answer": "Breakers trip when circuits are overloaded or there's a short circuit. If one breaker trips repeatedly, it may need to be replaced or the circuit may need to be split. This shouldn't be ignored."
+          "question": "How far in advance should I book?",
+          "answer": "We recommend scheduling at least a few days in advance, though we often have same-week availability. During busy seasons, booking a week or two ahead ensures you get your preferred time slot."
         },
         {
-          "question": "Is a burning smell from an outlet dangerous?",
-          "answer": "Yes! A burning smell indicates an electrical problem that could cause a fire. Turn off the circuit at the panel and call us immediately. Don't use the outlet until it's been inspected."
+          "question": "Do you offer emergency or same-day service?",
+          "answer": "NewYork Hvac Solutions understands that some situations require immediate attention. We offer priority and emergency service options for urgent needs. Call us at (888) 311-8609 and we'll do our best to help you as quickly as possible."
         }
       ]
     },
     {
-      "name": "Panels",
-      "slug": "panels",
+      "name": "Trust & Credentials",
+      "slug": "trust-credentials",
       "faqs": [
         {
-          "question": "When should I upgrade my electrical panel?",
-          "answer": "Consider upgrading if you have a 100-amp panel (most modern homes need 200), frequently trip breakers, are adding major appliances, or plan to add an EV charger or home addition."
+          "question": "Are you licensed and insured?",
+          "answer": "Yes, NewYork Hvac Solutions is fully licensed, bonded, and insured in NY. We maintain all required credentials and carry comprehensive liability coverage to protect our clients and their property."
         },
         {
-          "question": "How much does a panel upgrade cost?",
-          "answer": "Panel upgrades typically range from $1,500-$3,500 depending on scope. Factors include current amperage, new amperage needed, and any additional work required. We provide free detailed estimates."
+          "question": "Do you offer a warranty or guarantee on your work?",
+          "answer": "We stand behind the quality of our work with a satisfaction guarantee. If you're not completely happy with the results, let us know and we'll make it right. Specific warranty terms vary by project and are provided in writing with every estimate."
         },
         {
-          "question": "How long does a panel upgrade take?",
-          "answer": "Most panel upgrades are completed in one day. The power will be off for 4-8 hours during the upgrade. We'll coordinate with your utility company for temporary disconnection."
-        }
-      ]
-    },
-    {
-      "name": "Ev Chargers",
-      "slug": "ev-chargers",
-      "faqs": [
-        {
-          "question": "What's the difference between Level 1 and Level 2 charging?",
-          "answer": "Level 1 uses a standard 120V outlet and adds about 4-5 miles of range per hour. Level 2 uses a 240V circuit and adds 25-30 miles per hour. Most EV owners prefer Level 2 for overnight charging."
-        },
-        {
-          "question": "Does my panel support an EV charger?",
-          "answer": "EV chargers typically need a 50-amp dedicated circuit. We'll assess your panel's capacity and recommend any needed upgrades. Many homes can add a charger without panel upgrades."
-        },
-        {
-          "question": "Can I get rebates for EV charger installation?",
-          "answer": "Many utilities and states offer rebates for EV charger installation. We can help you identify available rebates and provide documentation needed to claim them."
+          "question": "How long have you been in business?",
+          "answer": "NewYork Hvac Solutions has been proudly serving the New York community for years, building a reputation for reliability, quality workmanship, and exceptional customer service. We'd love the opportunity to show you why our clients keep coming back."
         }
       ]
     }

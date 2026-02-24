@@ -1,160 +1,153 @@
 {
-  "services": [
-    {
-      "slug": "electrical-repair",
-      "name": "Electrical Repair",
-      "shortDescription": "Expert diagnosis and repair for all electrical issues.",
-      "longDescription": "Flickering lights? Tripping breakers? Dead outlets? Bright Spark Electric diagnoses and repairs all electrical problems safely and correctly. Our licensed electricians identify the root cause and fix it right the first time, ensuring your home's electrical system is safe and reliable.",
-      "icon": "Zap",
-      "features": [
-        "All electrical issues",
-        "Same-day service available",
-        "Thorough troubleshooting",
-        "Code-compliant repairs",
-        "Safety inspection included",
-        "2-year warranty"
-      ],
-      "category": "repairs",
-      "emergency": true
-    },
-    {
-      "slug": "panel-upgrade",
-      "name": "Panel Upgrade",
-      "shortDescription": "Upgrade your electrical panel for more power and safety.",
-      "longDescription": "Older homes often have electrical panels that can't handle modern demands. Bright Spark Electric upgrades panels from 100 to 200 amps or more, adding capacity for modern appliances, EV chargers, and home additions. All work is permitted and inspected.",
-      "icon": "Server",
-      "features": [
-        "100 to 200 amp upgrades",
-        "Permit included",
-        "Utility coordination",
-        "Code compliance",
-        "Arc-fault protection",
-        "Surge protection options"
-      ],
-      "category": "upgrades"
-    },
-    {
-      "slug": "outlet-installation",
-      "name": "Outlet & Switch Installation",
-      "shortDescription": "Install, repair, or upgrade outlets and switches.",
-      "longDescription": "Need more outlets? Want USB charging ports? Upgrading to smart switches? Bright Spark Electric installs all types of outlets and switches, from standard to GFCI, AFCI, and smart devices. We ensure proper placement, secure connections, and code compliance.",
-      "icon": "Plug",
-      "features": [
-        "Standard outlets",
-        "GFCI outlets",
-        "USB charging outlets",
-        "Smart switches",
-        "Dimmer switches",
-        "220V outlets"
-      ],
-      "category": "installation"
-    },
-    {
-      "slug": "lighting",
-      "name": "Lighting Installation",
-      "shortDescription": "Indoor, outdoor, and specialty lighting solutions.",
-      "longDescription": "Transform your space with professional lighting installation from Bright Spark Electric. We install recessed lighting, chandeliers, under-cabinet lights, landscape lighting, and more. Our electricians ensure safe installation and help you choose the right fixtures for your needs.",
-      "icon": "Lightbulb",
-      "features": [
-        "Recessed lighting",
-        "Chandeliers & pendants",
-        "Under-cabinet lighting",
-        "Landscape lighting",
-        "Security lighting",
-        "LED upgrades"
-      ],
-      "category": "installation"
-    },
-    {
-      "slug": "ceiling-fan",
-      "name": "Ceiling Fan Installation",
-      "shortDescription": "Professional ceiling fan installation and repair.",
-      "longDescription": "A properly installed ceiling fan improves comfort and saves energy. Bright Spark Electric installs all types of ceiling fans, from simple to smart-enabled. We ensure secure mounting, proper wiring, and balanced operation.",
-      "icon": "Fan",
-      "features": [
-        "All fan types",
-        "Secure mounting",
-        "Remote controls",
-        "Smart fan setup",
-        "Old fan removal",
-        "Proper balancing"
-      ],
-      "category": "installation"
-    },
-    {
-      "slug": "ev-charger",
-      "name": "EV Charger Installation",
-      "shortDescription": "Install a Level 2 EV charger at your home.",
-      "longDescription": "Charge your electric vehicle at home with a Level 2 charger installation from Bright Spark Electric. We install all major brands including Tesla, ChargePoint, and JuiceBox. Our licensed electricians ensure proper circuit sizing, permitting, and safe installation.",
-      "icon": "Battery",
-      "features": [
-        "All EV charger brands",
-        "Level 2 charging",
-        "Panel capacity check",
-        "Permit included",
-        "Utility rebate assistance",
-        "NEMA 14-50 outlets"
-      ],
-      "category": "upgrades"
-    },
-    {
-      "slug": "rewiring",
-      "name": "Whole-Home Rewiring",
-      "shortDescription": "Replace outdated wiring with safe, modern electrical.",
-      "longDescription": "Older homes with knob-and-tube or aluminum wiring pose serious safety risks. Bright Spark Electric replaces outdated wiring with modern copper wiring that meets current codes. We minimize disruption while ensuring your home is safe for decades to come.",
-      "icon": "Home",
-      "features": [
-        "Complete rewiring",
-        "Minimal wall damage",
-        "Panel upgrade included",
-        "All permits handled",
-        "Code compliance",
-        "Grounded outlets throughout"
-      ],
-      "category": "upgrades"
-    },
-    {
-      "slug": "emergency-electrical",
-      "name": "Emergency Electrical",
-      "shortDescription": "24/7 emergency electrical service.",
-      "longDescription": "Electrical emergencies can be dangerous. Power outages, sparking outlets, burning smells—don't wait. Bright Spark Electric offers 24/7 emergency electrical service in Denver. Our licensed electricians respond quickly to keep your family safe.",
-      "icon": "AlertCircle",
-      "features": [
-        "24/7 availability",
-        "Fast response",
-        "Safety first approach",
-        "All emergencies handled",
-        "Licensed electricians",
-        "Permanent solutions"
-      ],
-      "category": "emergency",
-      "emergency": true
-    }
-  ],
   "categories": [
     {
-      "slug": "repairs",
-      "name": "Electrical Repairs",
-      "icon": "Wrench",
-      "description": "Fix electrical problems safely."
+      "slug": "cooling",
+      "name": "Cooling Services",
+      "shortName": "Cooling",
+      "icon": "Home",
+      "description": "Stay cool through New York summers with PTAC units, central AC, and ductless systems."
     },
     {
-      "slug": "installation",
-      "name": "Installation",
-      "icon": "Wrench",
-      "description": "Outlets, lighting, fans, and more."
+      "slug": "heating",
+      "name": "Heating Services",
+      "shortName": "Heating",
+      "icon": "Star",
+      "description": "Keep warm all winter with professional heating solutions for apartments and buildings."
     },
     {
-      "slug": "upgrades",
-      "name": "Upgrades",
+      "slug": "maintenance-parts",
+      "name": "Maintenance & Parts",
+      "shortName": "Parts",
       "icon": "Wrench",
-      "description": "Panel upgrades, rewiring, EV chargers."
+      "description": "Replacement parts, filters, and ongoing maintenance to keep your HVAC system running efficiently."
+    }
+  ],
+  "services": [
+    {
+      "slug": "ptac-installation",
+      "name": "PTAC Installation",
+      "shortDescription": "Professional PTAC unit installation for apartments, hotels, and commercial spaces throughout New York City.",
+      "longDescription": "Packaged Terminal Air Conditioners are the backbone of climate control in New York apartments and commercial buildings. NewYork HVAC Solutions supplies and installs PTAC units from Amana, GE, and other leading manufacturers. We handle unit selection based on your room size and BTU requirements, delivery to your building, and professional installation that meets NYC building codes. Every installation includes a one-year workmanship warranty.",
+      "icon": "Home",
+      "features": [
+        "Amana, GE, and Friedrich units",
+        "BTU sizing for your space",
+        "Building code compliant installation",
+        "Old unit removal and disposal",
+        "One-year workmanship warranty"
+      ],
+      "benefits": [
+        "Exact-fit replacements for your existing sleeve",
+        "Same-day delivery on in-stock units",
+        "No hidden fees — upfront pricing always"
+      ],
+      "category": "cooling",
+      "metaTitle": "PTAC Installation NYC | NewYork HVAC Solutions",
+      "metaDescription": "Professional PTAC installation in New York City. Amana, GE, and Friedrich units with expert sizing and same-day delivery. Call (888) 311-8609."
     },
     {
-      "slug": "emergency",
-      "name": "Emergency",
+      "slug": "ac-repair",
+      "name": "AC Repair",
+      "shortDescription": "Fast air conditioning repair for all system types. One-hour response time across New York City.",
+      "longDescription": "When your AC goes down in the middle of a New York summer, waiting days for a repair is not an option. Our technicians diagnose and repair central air systems, ductless mini-splits, and PTAC units from all major brands. We stock common parts for faster turnaround and provide upfront pricing before any work begins. Most repairs are completed in a single visit so you can get back to comfort quickly.",
       "icon": "Wrench",
-      "description": "24/7 urgent electrical service."
+      "features": [
+        "All major brands serviced",
+        "One-hour response time",
+        "Upfront, flat-rate pricing",
+        "Same-day repairs for most issues",
+        "Emergency service available"
+      ],
+      "category": "cooling",
+      "emergency": true,
+      "metaTitle": "AC Repair NYC | NewYork HVAC Solutions",
+      "metaDescription": "Fast AC repair in New York City. One-hour response, upfront pricing, all brands serviced. Call (888) 311-8609."
+    },
+    {
+      "slug": "heating-system-installation",
+      "name": "Heating System Installation",
+      "shortDescription": "Expert furnace, boiler, and heat pump installation for New York residential and commercial properties.",
+      "longDescription": "New York winters demand a heating system you can count on. NewYork HVAC Solutions installs furnaces, boilers, heat pumps, and PTAC heating units sized correctly for your space. We guide you through equipment options based on your building type, energy goals, and budget, then handle every step from delivery to final testing. Our installations meet all NYC building codes and come with a full one-year warranty.",
+      "icon": "Star",
+      "features": [
+        "Furnaces, boilers, and heat pumps",
+        "Proper sizing and load calculations",
+        "NYC building code compliant",
+        "One-year workmanship warranty",
+        "Old system removal included"
+      ],
+      "category": "heating",
+      "metaTitle": "Heating Installation NYC | NewYork HVAC Solutions",
+      "metaDescription": "Heating system installation in New York City. Furnaces, boilers, heat pumps. Free estimates from NewYork HVAC Solutions."
+    },
+    {
+      "slug": "heating-repair",
+      "name": "Heating Repair",
+      "shortDescription": "Keep your building warm with professional furnace, boiler, and heat pump repair. Emergency service available.",
+      "longDescription": "A broken heater during a New York cold snap is a serious problem. Our technicians are trained to repair furnaces, boilers, heat pumps, and PTAC heating systems from all major manufacturers. We arrive prepared with common parts and diagnostic tools to complete most repairs in a single visit. Every repair comes with transparent pricing and a satisfaction guarantee.",
+      "icon": "CheckCircle",
+      "features": [
+        "Furnace, boiler, and heat pump repair",
+        "All major brands serviced",
+        "Emergency availability",
+        "Upfront pricing — no hidden fees",
+        "Safety inspection included"
+      ],
+      "category": "heating",
+      "emergency": true,
+      "metaTitle": "Heating Repair NYC | NewYork HVAC Solutions",
+      "metaDescription": "Heating repair in New York City for furnaces, boilers, and heat pumps. Emergency service available. Call (888) 311-8609."
+    },
+    {
+      "slug": "hvac-parts-supply",
+      "name": "HVAC Parts & Supply",
+      "shortDescription": "Replacement HVAC parts, filters, and accessories with fast delivery across the New York metro area.",
+      "longDescription": "Finding the right HVAC part shouldn't take days of searching. NewYork HVAC Solutions stocks a wide selection of filters, soft starters, control boards, thermostats, and accessories for all major HVAC brands. Our knowledgeable staff helps you identify the exact part you need and ships it fast. Whether you're a building superintendent, property manager, or homeowner, we make getting the right part simple.",
+      "icon": "Target",
+      "features": [
+        "Filters, soft starters, and control boards",
+        "All major HVAC brands",
+        "Expert part identification assistance",
+        "Fast shipping and local delivery",
+        "Competitive pricing"
+      ],
+      "category": "maintenance-parts",
+      "metaTitle": "HVAC Parts & Supply NYC | NewYork HVAC Solutions",
+      "metaDescription": "HVAC replacement parts and supplies in New York. Filters, soft starters, accessories. Fast shipping from NewYork HVAC Solutions."
+    },
+    {
+      "slug": "preventive-maintenance",
+      "name": "Preventive Maintenance",
+      "shortDescription": "Seasonal HVAC maintenance to extend system life, prevent breakdowns, and keep energy costs down.",
+      "longDescription": "Regular maintenance is the best way to extend your HVAC system's life and avoid costly emergency repairs. Our maintenance service covers all critical components including refrigerant levels, electrical connections, airflow, filters, and thermostat calibration. We service PTAC units, central air systems, furnaces, and boilers. Maintenance customers get priority scheduling and peace of mind knowing their system is running at peak efficiency.",
+      "icon": "ShieldCheck",
+      "features": [
+        "Comprehensive system inspection",
+        "Filter replacement and cleaning",
+        "Refrigerant level check",
+        "Electrical connection inspection",
+        "Priority scheduling for plan members"
+      ],
+      "category": "maintenance-parts",
+      "metaTitle": "HVAC Maintenance NYC | NewYork HVAC Solutions",
+      "metaDescription": "Preventive HVAC maintenance in New York City. Seasonal tune-ups for PTAC units, AC, and heating systems. Call (888) 311-8609."
+    },
+    {
+      "slug": "ductless-mini-split",
+      "name": "Ductless Mini-Split Installation",
+      "shortDescription": "Energy-efficient ductless mini-split systems for New York apartments and homes without existing ductwork.",
+      "longDescription": "Many New York buildings lack ductwork, making traditional central air impossible. Ductless mini-split systems provide efficient heating and cooling without the need for ducts, making them ideal for older apartments, additions, and converted spaces. We install single-zone and multi-zone systems from leading manufacturers, handling everything from unit selection to final commissioning.",
+      "icon": "Building2",
+      "features": [
+        "No ductwork required",
+        "Single and multi-zone options",
+        "Energy-efficient inverter technology",
+        "Heating and cooling in one unit",
+        "Quiet operation"
+      ],
+      "category": "cooling",
+      "metaTitle": "Ductless Mini-Split NYC | NewYork HVAC Solutions",
+      "metaDescription": "Ductless mini-split installation in New York City. No ductwork needed. Energy-efficient heating and cooling. Free estimates."
     }
   ]
 }

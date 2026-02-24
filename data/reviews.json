@@ -1,0 +1,152 @@
+[
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kMVJGcExWbUU0UVhwNmFUQnpRbU52VjNsUldVRRAB",
+    "reviewer_name": "Nrn Kck",
+    "rating": 5,
+    "date": "6 months ago",
+    "text": "Great, reliable company to deal with. All went very good. They had the best price for the PTAC unit I was looking for. Professional service, helpful staff and timely delivery. Detailed explanations provided to all my concerns and questions.",
+    "photos": [],
+    "parsed_date": "2025-08-28T21:41:57.517498",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 5,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paaGJUWktkV05rWDI5bGVuVXlWMWhoTWxORWNsRRAB",
+    "reviewer_name": "mike h",
+    "rating": 5,
+    "date": "2 months ago",
+    "text": "Good service. Fast shipping. Also, they helped me find a solution to a difficult situation I was having with a part.",
+    "photos": [],
+    "parsed_date": "2025-12-26T21:41:57.517661",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 2,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNBaDhDVENnEAE",
+    "reviewer_name": "Mark Evans",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "This company is awesome. The staff is very helpful and friendly. I bugged the heck out of them with questions. I even created orders that needed cancelled and they worked with me all through the process. The unit was on a pallet with three",
+    "photos": [],
+    "parsed_date": "2025-02-24T21:41:57.517696",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 3,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Gc2VHRm5USEYyV2toYVgyWkxSMnQ1ZWxjeFRWRRAB",
+    "reviewer_name": "kevin obarr",
+    "rating": 5,
+    "date": "6 months ago",
+    "text": "Awesome to deal with.  No problems with my order. Had to wait a little for the shipping to get going but all is good. Thanks Total Home Supply.",
+    "photos": [],
+    "parsed_date": "2025-08-28T21:41:57.517749",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 2,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMWIzRTJSbTVNY3pabGMweGhkRWM1Y3pJdFJIYxAB",
+    "reviewer_name": "Michael Powers",
+    "rating": 5,
+    "date": "6 months ago",
+    "text": "Easy website navigation, great price and fast shipping. The filters I ordered were exactly as described and exact fit. I will definitely buy again.",
+    "photos": [],
+    "parsed_date": "2025-08-28T21:41:57.517781",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 2,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReE5IRkxXbk56TkY4d1dXWlFTVXBZWm5weVMwRRAB",
+    "reviewer_name": "Tracey Alban",
+    "rating": 5,
+    "date": "7 months ago",
+    "text": "They were great help. My replacement PTAC was and exact fit for my old unit. Easy to install.\nSuper fast delivery.",
+    "photos": [],
+    "parsed_date": "2025-07-29T21:41:57.517817",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 2,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "ChdDSUhNMG9nS0VJQ0FnTURBaU8yNG53RRAB",
+    "reviewer_name": "Greg",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "I ordered and received the 36 inch insert and the dark oak mantel. The shipping was quick, and all materials were received in great shape. No damage at all. Will order from Total Home Supply again.",
+    "photos": [],
+    "parsed_date": "2025-02-24T21:41:57.517845",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 2,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "ChdDSUhNMG9nS0VJQ0FnSURENXA2OHBBRRAB",
+    "reviewer_name": "wj chestnut",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "Absolutely Fantastic, after reading all the reviews and some of the horror stories with the various online suppliers we decided to go with the highly trusted Total Home Supply. We ordered an Amana PTAC unit, and the entire process went as",
+    "photos": [],
+    "parsed_date": "2025-02-24T21:41:57.517884",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 1,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ5amVLNXNnRRAB",
+    "reviewer_name": "Bradford Wade",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "Ordering via the Total Home Supply website worked fine.  I like stores that allow payment through PayPal.  My order was shipped quickly and arrived just fine.  My experience of calling with a question went fine too.",
+    "photos": [],
+    "parsed_date": "2025-02-24T21:41:57.517928",
+    "sentiment": {
+      "score": 1,
+      "label": "positive",
+      "positive_words": 1,
+      "negative_words": 0
+    }
+  },
+  {
+    "review_id": "ChZDSUhNMG9nS0VJQ0FnSUM3aFBLQ0pnEAE",
+    "reviewer_name": "Clint Nicholson",
+    "rating": 5,
+    "date": "a year ago",
+    "text": "The Total Home Supply website had information that made choosing the right part easy.  The part arrived a couple of days sooner than expected.  The ICM870-32A soft start installed quickly.  Hoping this will allow me to use a smaller less expensive emergency generator.  Inrush amps dropped to about 1/3 after installing the ICM870-32A.",
+    "photos": [],
+    "parsed_date": "2025-02-24T21:41:57.517968",
+    "sentiment": {
+      "score": 0.5,
+      "label": "neutral",
+      "positive_words": 1,
+      "negative_words": 1
+    }
+  }
+]
