@@ -18,9 +18,19 @@ const blogContent = getBlogSectionContent()
 
 export type BlogStyle = 'cards' | 'list' | 'featured'
 
+const BLOG_STYLE_MAP: Record<string, BlogStyle> = {
+  cards: 'cards', grid: 'cards',
+  list: 'list', minimal: 'list',
+  featured: 'featured', magazine: 'featured',
+}
+
+function normalizeBlogStyle(raw: string): BlogStyle {
+  return BLOG_STYLE_MAP[raw] || 'cards'
+}
+
 function useBlogStyle(): BlogStyle {
   const [style, setStyle] = useState<BlogStyle>(
-    ((themeData as any).blogStyle as BlogStyle) || 'cards'
+    normalizeBlogStyle((themeData as any).blogStyle || 'cards')
   )
 
   useEffect(() => {
@@ -30,12 +40,12 @@ function useBlogStyle(): BlogStyle {
         if (saved) {
           const parsed = JSON.parse(saved)
           if (parsed.blogStyle) {
-            setStyle(parsed.blogStyle)
+            setStyle(normalizeBlogStyle(parsed.blogStyle))
             return
           }
         }
       } catch {}
-      setStyle(((themeData as any).blogStyle as BlogStyle) || 'cards')
+      setStyle(normalizeBlogStyle((themeData as any).blogStyle || 'cards'))
     }
     update()
     window.addEventListener('foundlio-theme-change', update)

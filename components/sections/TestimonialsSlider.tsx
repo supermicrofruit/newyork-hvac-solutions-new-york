@@ -22,9 +22,21 @@ type Testimonial = (typeof testimonialsData.testimonials)[number]
 
 export type TestimonialsStyle = 'carousel' | 'grid' | 'featured' | 'minimal' | 'wall'
 
+const TESTIMONIALS_STYLE_MAP: Record<string, TestimonialsStyle> = {
+  carousel: 'carousel',
+  grid: 'grid',
+  featured: 'featured',
+  minimal: 'minimal',
+  wall: 'wall', masonry: 'wall',
+}
+
+function normalizeTestimonialsStyle(raw: string): TestimonialsStyle {
+  return TESTIMONIALS_STYLE_MAP[raw] || 'carousel'
+}
+
 function useTestimonialsStyle(): TestimonialsStyle {
   const [style, setStyle] = useState<TestimonialsStyle>(
-    ((themeData as any).testimonialsStyle as TestimonialsStyle) || 'carousel'
+    normalizeTestimonialsStyle((themeData as any).testimonialsStyle || 'carousel')
   )
 
   useEffect(() => {
@@ -34,12 +46,12 @@ function useTestimonialsStyle(): TestimonialsStyle {
         if (saved) {
           const parsed = JSON.parse(saved)
           if (parsed.testimonialsStyle) {
-            setStyle(parsed.testimonialsStyle)
+            setStyle(normalizeTestimonialsStyle(parsed.testimonialsStyle))
             return
           }
         }
       } catch {}
-      setStyle(((themeData as any).testimonialsStyle as TestimonialsStyle) || 'carousel')
+      setStyle(normalizeTestimonialsStyle((themeData as any).testimonialsStyle || 'carousel'))
     }
     update()
     window.addEventListener('foundlio-theme-change', update)

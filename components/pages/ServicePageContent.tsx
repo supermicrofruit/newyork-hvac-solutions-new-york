@@ -122,19 +122,29 @@ function useDividerStyle(): DividerStyle {
   return style
 }
 
+const SERVICE_PAGE_STYLE_MAP: Record<string, string> = {
+  standard: 'standard', tabs: 'standard', scroll: 'standard',
+  sidebar: 'sidebar',
+  fullwidth: 'fullwidth',
+}
+
 function getServicePageStyle(): string {
+  let raw = 'standard'
   if (typeof window !== 'undefined') {
     try {
       const saved = localStorage.getItem('foundlio-design')
       if (saved) {
         const parsed = JSON.parse(saved)
-        if (parsed.servicePageStyle) return parsed.servicePageStyle
+        if (parsed.servicePageStyle) raw = parsed.servicePageStyle
       }
     } catch (e) {
       // Ignore
     }
   }
-  return (themeData as Record<string, unknown>).servicePageStyle as string || 'standard'
+  if (raw === 'standard') {
+    raw = (themeData as Record<string, unknown>).servicePageStyle as string || 'standard'
+  }
+  return SERVICE_PAGE_STYLE_MAP[raw] || 'standard'
 }
 
 interface ServicePageContentProps {

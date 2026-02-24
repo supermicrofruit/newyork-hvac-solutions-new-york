@@ -14,6 +14,17 @@ interface FAQ {
 
 export type FAQStyle = 'accordion' | 'two-column' | 'cards' | 'minimal'
 
+const FAQ_STYLE_MAP: Record<string, FAQStyle> = {
+  accordion: 'accordion',
+  'two-column': 'two-column', tabs: 'two-column',
+  cards: 'cards', grid: 'cards',
+  minimal: 'minimal', simple: 'minimal',
+}
+
+function normalizeFaqStyle(raw: string): FAQStyle {
+  return FAQ_STYLE_MAP[raw] || 'accordion'
+}
+
 interface FAQAccordionProps {
   faqs: FAQ[]
   title?: string
@@ -24,7 +35,7 @@ interface FAQAccordionProps {
 
 function useFaqStyle(): FAQStyle {
   const [style, setStyle] = useState<FAQStyle>(
-    ((themeData as any).faqStyle as FAQStyle) || 'accordion'
+    normalizeFaqStyle((themeData as any).faqStyle || 'accordion')
   )
 
   useEffect(() => {
@@ -34,12 +45,12 @@ function useFaqStyle(): FAQStyle {
         if (saved) {
           const parsed = JSON.parse(saved)
           if (parsed.faqStyle) {
-            setStyle(parsed.faqStyle)
+            setStyle(normalizeFaqStyle(parsed.faqStyle))
             return
           }
         }
       } catch {}
-      setStyle(((themeData as any).faqStyle as FAQStyle) || 'accordion')
+      setStyle(normalizeFaqStyle((themeData as any).faqStyle || 'accordion'))
     }
     update()
     window.addEventListener('foundlio-theme-change', update)
