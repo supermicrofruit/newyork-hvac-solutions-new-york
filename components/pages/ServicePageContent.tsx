@@ -165,7 +165,7 @@ function ServiceStandard({ service }: ServicePageContentProps) {
   const faqCats = (faqsData as any).categories || []
   const categoryFaqs = faqCats.find(
     (cat: any) => cat.slug === service.slug || cat.slug === (service as any).category
-  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || []
+  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || faqCats[0]?.faqs || []
 
   return (
     <>
@@ -406,7 +406,7 @@ function ServiceSidebar({ service }: ServicePageContentProps) {
   const faqCats = (faqsData as any).categories || []
   const categoryFaqs = faqCats.find(
     (cat: any) => cat.slug === service.slug || cat.slug === (service as any).category
-  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || []
+  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || faqCats[0]?.faqs || []
 
   return (
     <>
@@ -648,7 +648,7 @@ function ServiceFullwidth({ service }: ServicePageContentProps) {
   const faqCats = (faqsData as any).categories || []
   const categoryFaqs = faqCats.find(
     (cat: any) => cat.slug === service.slug || cat.slug === (service as any).category
-  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || []
+  )?.faqs || faqCats.find((cat: any) => cat.slug === 'general')?.faqs || faqCats[0]?.faqs || []
 
   return (
     <>
