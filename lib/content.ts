@@ -174,7 +174,13 @@ export function getProcessSectionContent(): ProcessSectionContent {
 }
 
 export function getWorksSectionContent() {
-  return data.worksSection || {}
+  const works = data.worksSection || {} as Record<string, any>
+  return {
+    title: works.title || works.headline || 'Our Work',
+    subtitle: works.subtitle || works.description || 'See examples of our recent projects',
+    badgeText: works.badgeText || 'Portfolio',
+    ...works,
+  }
 }
 
 export function getTestimonialsSectionContent() {
